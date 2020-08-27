@@ -1,5 +1,5 @@
-function fizzBuzz(){
-
+function displayNumber(a){
+    return null
 }
 
-module.exports = fizzBuzz;
+module.exports = displayNumber;
