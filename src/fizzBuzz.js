@@ -1,5 +1,5 @@
 function displayNumber(a){
-    return null
+    return a
 }
 
 module.exports = displayNumber;
