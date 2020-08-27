@@ -9,3 +9,12 @@ test("n number, display N",()=>{
     //Then
     .toBe(2);
 });
+test(
+    "multiple of 3, diplay Fizz",()=>{
+        //When
+        expect(displayNumber(6))
+
+            //Then
+            .toBe("Fizz")
+    }
+);
