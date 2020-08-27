@@ -22,8 +22,16 @@ test(
     "multiple of 5, display Buzz",()=>{
         //When
         expect(displayNumber(40))
-
             //Then
             .toBe("Buzz")
+    }
+);
+test(
+    //Then
+    "multiple of 3 and 5, display FizzBuzz", ()=>{
+        //When
+        expect(displayNumber(15))
+        //Then
+            .toBe("FizzBuzz")
     }
 );
