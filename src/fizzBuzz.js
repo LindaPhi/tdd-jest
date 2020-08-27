@@ -12,5 +12,3 @@ function displayNumber(a){
 }
 
 module.exports = displayNumber;
-
-module.exports = displayNumber;
